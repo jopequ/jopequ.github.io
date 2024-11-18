@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Jorge Peña Queralta - Personal Portfolio</title>
+
+  <!--
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./assets/images/logo.ico" type="image/x-icon">
+
+  <!--
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!--
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <!--
+    - #MAIN
+  -->
+
+  <main>
+
+    <!--
+      - #SIDEBAR
+    -->
+
+    <aside class="sidebar" data-sidebar>
+
+      <div class="sidebar-info">
+
+        <figure class="avatar-box">
+          <img src="./assets/images/jorge_tiers.jpg" alt="Jorge Peña Queralta" width="100" style="border-radius: 10%;">
+        </figure>
+
+        <div class="info-content">
+          <h1 class="name" title="Jorge Peña Queralta">Jorge<br/>Peña Queralta</h1>
+
+          <p class="title">PhD, Robotics</p><br/>
+          <p class="title">Docent, Robotics & ML</p>
+        </div>
+
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Show Contact Information</span>
+
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+
+      </div>
+
+      <div class="sidebar-info_more">
+
+        <div class="separator"></div>
+
+        <ul class="contacts-list">
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
+
+              <a href="mailto:jorgepenaqueralta@gmail.com.com" class="contact-link">jorgepenaqueralta@gmail.com</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="phone-portrait-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Phone</p>
+
+              <a href="tel:+41767300479" class="contact-link">+41 76 730 0479</a>
+              <a href="tel:+34692695624" class="contact-link">+34 692 695 624</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Location</p>
+
+              <address>Zurich, Switzerland</address>
+            </div>
+
+          </li>
+
+        </ul>
+
+        <div class="separator"></div>
+
+        <ul class="social-list">
+
+          <li class="social-item">
+            <a href="https://scholar.google.com/citations?hl=en&user=J1SHJeMAAAAJ&view_op=list_works&sortby=pubdate" class="social-link">
+              <ion-icon name="logo-google"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="https://github.com/jopequ" class="social-link">
+              <ion-icon name="logo-github"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="https://www.linkedin.com/in/jopequ" class="social-link">
+              <ion-icon name="logo-linkedin"></ion-icon>
+            </a>
+          </li>
+
+        </ul>
+
+      </div>
+
+    </aside>
+
+
+
+
+
+    <!--
+      - #main-content
+    -->
+
+    <div class="main-content">
+
+      <!--
+        - #NAVBAR
+      -->
+
+      <nav class="navbar">
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <button class="navbar-link  active" data-nav-link>About</button>
+          </li>
+
+          <!-- <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Resume</button>
+          </li> -->
+
+        </ul>
+
+      </nav>
+
+
+
+
+
+      <!--
+        - #ABOUT
+      -->
+
+      <article class="about  active" data-page="about">
+
+        <header>
+          <h2 class="h2 article-title">About me</h2>
+        </header>
+
+        <section class="about-text">
+
+          <h3 class="h3 service-title">In Short</h3>
+
+          <ul>
+            <li>
+              CTO @ DAAV (2024-), Swiss Startup working in autonomous robotic wheelchairs
+            </li>
+            <br/>
+            <li>
+              Postdoc @ ETH Zurich (2023-2024), Swizerland. Worked on Reinforcement Learning for shared control, and robotics for healthcare applications.
+            </li>
+            <br/>
+            <li>
+              PhD (2019-2022) in Multi-Robot Systems from the University of Turku, Finland 
+            </li>
+          </ul>
+          
+        </section>
+        <section class="service">
+          <h3 class="h3 service-title">Bio</h3>
+          <p class="service-item-text">
+            I received bachelor degrees in Mathematics and Engineering Physics from the Technical University of Catalonia (UPC), Spain, 
+            and its Interdisciplinary Higher Education Centre (CFIS), in 2016. 
+            From 2016 to 2018, I joined a master degree program obtaining degrees in Electronics Engineering from Fudan University, China, 
+            and Embedded Systems from the University of Turku, Finland.
+          </p>
+          <p class="service-item-text">
+          I completed my PhD on Robotics and Autonomous Systems at the University of Turku, Finland, from 2019 to 2022. 
+          My research focused on multi-robot collaborative autonomy, distributed robotic systems, and cooperative localization. 
+          During this time, I visited the Laboratory of Intelligent Systems (LIS) at EPFL, and CATEC in Sevilla, to work on autonomous aerial multi-robot systems. 
+          After the PhD, he continued his work with a focus on multi-robot learning and collaborative situational awareness.
+          </p>
+          <p class="service-item-text">
+          In June 2023, I led the TIERS team at the ENRICH competition achieving the best drone 3D map and autonomous exploration 
+          of the competition area in the Zwentendorf Nuclear Power Plant in Austria.
+          </p>
+          <p class="service-item-text">
+          During my PhD, I was awarded a Nokia Scholarship in 2019 and in 2020, and a Finnish Foundation for Technology Promotion Grant in 2021. 
+          I was also part of the regional winner and one of four global finalist teams in the JDD Global Digitalization Challenge in 2019 on multi-sensor fusion for autonomous driving held at the JDD headquarters in Beijing, China.
+        </p>
+        <p class="service-item-text">
+        From July 2023 to June 2024, I was a Postdoctoral Researcher at the SMS lab at ETH Zürich from July 2023 to June 2024 working on perception and control for autonomous social navigation in complex environments. 
+        My research includes reinforcement learning for social navigation, deep learning for scene understanding, and active perception for improved object tracking and situational awareness.
+          </p>
+
+          <p class="service-item-text">
+            I am currently leading the technology development at DAAV, a Swiss startup building micromobility-as-a-service through autonomous wheelchairs for persons with reduced mobility.
+            I oversee hardware and software development for an in-house robotic platform, from sensor drivers to the autonomy stack, fleet management and web-based interfaces.
+          </p>
+        </section>
+
+
+        <!--
+          - service
+        -->
+
+        <section class="service">
+
+          <h3 class="h3 service-title">Research Interests in Robotics and ML</h3>
+
+          <ul class="service-list">
+
+            <li class="service-item">
+
+              <!-- <div class="service-icon-box">
+                <img src="./assets/images/icon-design.svg
+                " alt="design icon" width="40">
+              </div> -->
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Robot Learning</h4>
+
+                <p class="service-item-text">
+                  Currently supervising students on reinforcement learning for shared control and autonomous mobile robots. 
+                  Earlier experience in applying different ML/DL methods to perception and control of single and multi-robot systems.
+                  Also interested in the deployment of ML/DL in edge-to-cloud robotic systems.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <!-- <div class="service-icon-box">
+                <img src="./assets/images/icon-dev.svg" alt="Web development icon" width="40">
+              </div> -->
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Autonomous Navigation & Exploration</h4>
+
+                <p class="service-item-text">
+                  In my current role as the CTO of DAAV, I lead the development of state-of-the-art autonomous navigation algorithms for robotic mobility platforms in crowded indoor environemnts. This requires optimizing operations beyond typical metrics in robotics (e.g., travel time or distance) to add in user comfort and envronmental constraints. I also work on ensuring reliable localization, flexible path planning and overall a strong situational awareness with dense static and dynamic obstacles.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <!-- <div class="service-icon-box">
+                <img src="./assets/images/icon-app.svg" alt="mobile app icon" width="40">
+              </div> -->
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Multi-Robot Systems & Aerial Robotics</h4>
+
+                <p class="service-item-text">
+                  I am interested in the potential for collaborative autonomy in heterogeneous multi-robot systems, covering areas such as active perception for optimization of distributed data gathering or exploration planning, among others.
+                </p>
+              </div>
+
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #RESUME
+      -->
+
+      <article class="resume" data-page="resume">
+
+        <header>
+          <h2 class="h2 article-title">Resume</h2>
+        </header>
+
+        <embed src="https://pdfobject.com/pdf/sample.pdf" width="100%" height="1000" type="application/pdf">
+
+      </article>
+
+
+
+
+
+
+    </div>
+
+  </main>
+
+
+
+
+
+
+  <!--
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!--
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
